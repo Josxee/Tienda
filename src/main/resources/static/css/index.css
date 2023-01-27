@@ -1,9 +1,46 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
 /* 
-    Created on : 19 ene 2023, 23:51:46
-    Author     : Asus
+box-sixing: content-box border-box
 */
 
+.block{
+    background-color: purple;
+    border: 20px solid blue;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.static{
+    position: static;
+    border: 3px solid green;
+    top: 400px;
+    left: 500px;
+}
+
+.relative{
+    position: relative;
+    border: 3px solid green;
+    top: 400px;
+    left: 500px;
+    width: 400px;
+    height: 400px;
+}
+
+.fixed{
+    position: fixed;
+    border: 3px solid green;
+    top: 150px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.absolute{
+    position: absolute;
+    border: 3px solid green;
+    top: 80px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+}

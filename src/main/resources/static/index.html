@@ -1,19 +1,84 @@
 <!DOCTYPE html>
 <html>
-    
+
     <!-- head = contiene información se de metada o general de la página web -->
     <!-- El usuario no es capaz de ver lo que se guarda en el head -->
     <!-- Renderizar = es lo que se muestra en la página en si -->
     <head>
         <title>Tienda</title>
+        <link rel="stylesheet" href="css/index.css"/>
     </head>
-    
-    <!<!-- SEO (Search Engine Optimization) -->
-    
-    
+
+    <!-- SEO (Search Engine Optimization) -->
+
+    <!-- En body va todo lo que va en la pagina en si -->
     <body>
-        <h1>Pagina Principal</h1>
-        <p>Esta es la primera pagina del curso Web y Patrones</p>
+
+        <div class='block'>
+            <h1>BLOQUE</h1>
+        </div>
+
+        <div class='static'>ESTO ES ESTATICO</div>
+
+        <div class='relative'>
+            ESTO ES RELATIVO
+            <div class='absolute'>ESTO ES ABOSOLUTO</div>
+        </div>
+
+        <div class='fixed'>ESTO ES FIXED</div>
+
+        <div class='absolute'>ESTO ES ABOSOLUTO</div>
+
+        <!-- Etique div = agrupa = division -->
+        <div>
+            <!-- Etiquetas h = Heading -->
+            <!-- Por html solo debe haber un h1, pero varios h2 etc -->
+            <h1>Hola mundo</h1>
+            <h2>Hola mundo</h2>
+            <h3>Hola mundo</h3>
+            <h4>Hola mundo</h4>
+            <h5>Hola mundo</h5>
+            <h6>Hola mundo</h6>
+        </div>
+
+        <!-- Es parecido al div, pero se usa con diferentes metas
+        El section es para grupo o infoemcion que tiene sentido en la pagina que se presenta
+        El article es lo contrario-->
+        <section>
+            <!-- Etiqueta p = parrafo -->
+            <p>Hola mundo jaojoa</p>
+
+            <!-- unordered list -->
+            <!-- simplmente señala información -->
+            <ul>
+                <li>first</li>
+                <li>second</li>
+                <li>third</li>
+            </ul>
+        </section>
+
+        <!-- order list -->
+        <!-- enumera información -->
+        <ol>
+            <li>second</li>
+            <li>first</li>
+            <li>third</li>
+
+        </ol>
+
+        <!-- Etiqueta a = Hyperlink -->
+        <!-- Nos redirige -->
+        <!-- href = hace referencia al archivo que se quiere redirigir -->
+        <a href="home.html">Home</a> <!-- Enlace de tipo relativo -->
+        <a href="https://fonts.google.com/knowledge">Fonts</a> 
+
+        <!-- Etiqueta img = para imagenes -->
+        <!-- Siempre revisar si el navegador soporta el formato de imagen que se quiere usar -->
+        <!-- src = fuente / alt = texto alternativo -->
+        <img src="images/Ejemplo_1.webp" alt="Este es mi ejemplo"/>
+
+
+
     </body>
-    
+
 </html>
