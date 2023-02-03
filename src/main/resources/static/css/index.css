@@ -44,3 +44,16 @@ box-sixing: content-box border-box
     width: 100px;
     height: 100px;
 }
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: #aaa;
+    margin-bottom: 20px;
+    display: inline-block; /*Para que unicamente abarque el tamaño de la figura*/
+    
+}
+
+a{
+   display: block; 
+}
