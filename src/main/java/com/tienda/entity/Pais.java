@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import java.io.Serializable;
 
-@Entity
+@Entity //Sirve para mapear una base de datos 
 @Table(name = "pais")
 
 public class Pais implements Serializable {
