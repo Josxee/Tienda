@@ -42,10 +42,10 @@
         <!-- FOOTER -->
         <footer th:frament="footer" class="text-center text-lg-start bg-light text-muted">
             
-            <!-- Primera Manera -->
+            <!-- Primera Manera (No me funciona)
             <a th:href="@{/(lang=es)}">ESPAÑOL</a>
             <a th:href="@{/(lang=en)}">ENGLISH</a>
-            
+            -->
 
             <!-- Segunda manera -->
             <a th:with="urlBuilder=${T(org.springframework.web.servlet.support.ServletUriComponentsBuilder).fromCurrentRequest()}"
