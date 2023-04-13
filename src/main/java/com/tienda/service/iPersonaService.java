@@ -14,5 +14,7 @@ public interface iPersonaService {
     public void delete(long id);
 
     List<Persona> buscarPorApellido1(String apellido1);
+    
+    public Persona findByNombre (String username);
 
 }

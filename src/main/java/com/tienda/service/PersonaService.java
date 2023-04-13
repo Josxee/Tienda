@@ -36,4 +36,9 @@ public class PersonaService implements iPersonaService {
     public List<Persona> buscarPorApellido1(String apellido1) {
         return personaRepository.findByApellido1(apellido1);
     }
+
+    @Override
+    public Persona findByNombre(String username) {
+        return personaRepository.findByNombre(username);
+    }
 }
